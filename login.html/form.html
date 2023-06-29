@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    p{
+        
+        margin-left: 250px;
+        font-size: 30px;
+    }
+    table{
+        margin: auto;
+        padding: left 5px;
+        padding: 5px;
+    }
+       table th{
+        border: 2px solid black;
+        padding: 5px;
+        margin: auto;
+        text-align: left;
+        background-color: rgb(142, 142, 236);
+    }
+    table td{
+        border: 1px solid black;
+        padding: 5px;
+        margin: auto;
+    }
+
+</style>
+<body>
+    <div class="form">
+        <table width="80%" cellspacing="0px" cell padding="5px">
+             <tr>
+                    <p>REGISTRATION APPLICATION FORM FOR COURSE- O LEVEL</p>
+                </tr>
+                <tr>
+                    <th colspan="3">1. Registration Form</th>
+                </tr>
+                <tr>
+                    <td>1.0</td>
+                    <td>Have you got online reference number for enrolement with NIELIT/ACCREDIATION</td>
+                    <td>
+                        Yes<input type="radio" name="1.0">
+                        No<input type="radio"  name="1.0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>1.1</td>
+                    <td>Registration sought for</td>
+                    <td><select name="1.1" id="level">
+                        <option 1.1>O Level</option>
+                        <option>Any Others</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>1.2</td>
+                    <td>Applied as</td>
+                    <td>
+                        Direct Candidate<input type="radio" name="1.2">
+                        Through Institude<input type="radio" name="1.2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>1.3</td>
+                    <td>Exam Cycle</td>
+                    <td><input type="text" value="June,2023" readonly></td>
+                </tr>
+                <tr>
+                    <td>1.4</td>
+                    <td>Registration fee will be paid by</td>
+                    <td><input type="text" value="Candidate Direct" readonly></td>
+                </tr>
+                <tr>
+                    <th colspan="3">2.  Applicants personal details</th>
+                </tr>
+                <tr>
+                    <td>2.1</td>
+                    <td>Applicants full name</td>
+                    <td><select>
+                        <option>MR.</option>
+                        <option>MRS.</option>
+                    </select>
+                    <input type="text" placeholder="Full Name">
+                </td>
+                 </tr>
+                 <tr>
+                    <td>2.2</td>
+                    <td>Care Of</td>
+                    <td>
+                        Parents<input type="radio" name="2.2">
+                        Guardian<input type="radio" name="2.2">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>2.2.1</td>
+                    <td>Fathers Name</td>
+                    <td>Mr. <input type="text"></td>
+                 </tr>
+                 <tr>
+                    <td>2.2.2</td>
+                    <td>Mothers name</td>
+                    <td>Mrs. <input type="text"></td>
+                 </tr>
+                 <tr>
+                 <td>2.3</td>
+                 <td>Gender</td>
+                 <td>
+                    Male <input type="radio" name="Gender">
+                    Female <input type="radio" name="Gender">
+                 </td>
+                </tr>
+                <tr>
+                    <td>2.4</td>
+                    <td>Date of birth</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.5</td>
+                    <td>Marriaal Status</td>
+                    <td>
+                        <select name="select" id="2.5">
+                            <option>Select</option>
+                            <option>Single</option>
+                            <option>Married</option>
+                            <option> Divorsed</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.6</td>
+                    <td>Category</td>
+                    <td>
+                        <select name="select" id="2.6">
+                            <option value="2.6">General</option>
+                            <option>OBC</option>
+                            <option>SC</option>
+                            <option>OC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.7</td>
+                    <td>Handicapped</td>
+                    <td>
+                        Yes<input type="radio" name="2.7">
+                        No<input type="radio"  name="2.7">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.8</td>
+                    <td>Ex-Serviceman</td>
+                    <td>
+                        Yes<input type="radio" name="2.8">
+                        No<input type="radio"  name="2.8">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.9</td>
+                    <td>EWS</td>
+                    <td>
+                        Yes<input type="radio" name="2.9">
+                        No<input type="radio"  name="2.9">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.10</td>
+                    <td>Religion</td>
+                    <td>
+                        <select name="select" id="2.10">
+                        <option value="2.10">Select</option>
+                        <option>Hindu</option>
+                        <option>Muslim</option>
+                        <option>Others</option></select>
+                    </td>
+                </tr>
+                <tr>
+                   <th colspan="3"> 3.  Contact Details</th>
+                </tr>
+                <tr>
+                    <td>3.1</td>
+                    <td>Mobile Number</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.2</td>
+                    <td>Email ID</td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.3</td>
+                    <td>Address Line 1</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.4</td>
+                    <td>Address Line 2</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.5</td>
+                    <td>District</td>
+                    <td>
+                        <select name="District" id="3.5">
+                            <option>-Select-</option>
+                            <option>Jhapa</option>
+                            <option value="Arghakhanchi">Arghakhanchi</option>
+                <option value="Baglung">Baglung</option>
+                <option value="Baitadi">Baitadi</option>
+                <option value="Bajhang">Bajhang</option>
+                <option value="Bajura">Bajura</option>
+                <option value="Banke">Banke</option>
+                <option value="Bara">Bara</option>
+                <option value="Bardiya">Bardiya</option>
+                <option value="Bhaktapur">Bhaktapur</option>
+                <option value="Bhojpur">Bhojpur</option>
+                <option value="Chitwan">Chitwan</option>
+                <option value="Dadeldhura">Dadeldhura</option>
+                <option value="Dailekh">Dailekh</option>
+                <option value="Dang">Dang</option>
+                <option value="Darchula">Darchula</option>
+                <option value="Dhading">Dhading</option>
+                <option value="Dhankuta">Dhankuta</option>
+                <option value="Dhanusha">Dhanusha</option>
+                <option value="Dholkha">Dholkha</option>
+                <option value="Dolpa">Dolpa</option>
+                <option value="Doti">Doti</option>
+                <option value="Eastern Rukum">Eastern Rukum</option>
+                <option value="Gorkha">Gorkha</option>
+                <option value="Gulmi">Gulmi</option>
+                <option value="Humla">Humla</option>
+                <option value="Ilam">Ilam</option>
+                <option value="Jajarkot">Jajarkot</option>
+                <option value="Jhapa">Jhapa</option>
+                <option value="Jumla">Jumla</option>
+                <option value="Kailali">Kailali</option>
+                <option value="Kalikot">Kalikot</option>
+                <option value="Kanchanpur">Kanchanpur</option>
+                <option value="Kapilvastu">Kapilvastu</option>
+                <option value="Kaski">Kaski</option>
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Kavrepalanchok">Kavrepalanchok</option>
+                <option value="Khotang">Khotang</option>
+                <option value="Lalitpur">Lalitpur</option>
+                <option value="Lamjung">Lamjung</option>
+                <option value="Mahottari">Mahottari</option>
+                <option value="Makwanpur">Makwanpur</option>
+                <option value="Manang">Manang</option>
+                <option value="Morang">Morang</option>
+                <option value="Mugu">Mugu</option>
+                <option value="Mustang">Mustang</option>
+                <option value="Myagdi">Myagdi</option>
+                <option value="Nawalpur">Nawalpur</option>
+                <option value="Nuwakot">Nuwakot</option>
+                <option value="Okhaldhunga">Okhaldhunga</option>
+                <option value="Palpa">Palpa</option>
+                <option value="Panchthar">Panchthar</option>
+                <option value="Parbat">Parbat</option>
+                <option value="Parsa">Parsa</option>
+                <option value="Pyuthan">Pyuthan</option>
+                <option value="Ramechhap">Ramechhap</option>
+                <option value="Rasuwa">Rasuwa</option>
+                <option value="Rautahat">Rautahat</option>
+                <option value="Rolpa">Rolpa</option>
+                <option value="Rukum">Rukum</option>
+                <option value="Rupandehi">Rupandehi</option>
+                <option value="Salyan">Salyan</option>
+                <option value="Sankhuwasabha">Sankhuwasabha</option>
+                <option value="Saptari">Saptari</option>
+                <option value="Sarlahi">Sarlahi</option>
+                <option value="Sindhuli">Sindhuli</option>
+                <option value="Sindhupalchok">Sindhupalchok</option>
+                <option value="Siraha">Siraha</option>
+                <option value="Solukhumbu">Solukhumbu</option>
+                <option value="Sunsari">Sunsari</option>
+                <option value="Surkhet">Surkhet</option>
+                <option value="Syangja">Syangja</option>
+                <option value="Tanahun">Tanahun</option>
+                <option value="Taplejung">Taplejung</option>
+                <option value="Terhathum">Terhathum</option>
+                <option value="Udayapur">Udayapur</option>
+                <option value="Western Rukum">Western Rukum</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.6</td>
+                    <td>Pincode</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="3"> 4.  Educational/Qualification Details</th>
+                </tr>
+                <tr>
+                    <td>4.1</td>
+                    <td>Highest Educational Qualification</td>
+                    <td>
+                        <select>
+                            <option>-Select-</option>
+                            <option>10th</option>
+                            <option>12th</option>
+                            <option>Graduate</option>
+                            <option>Post Graduate</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4.2</td>
+                    <td>Year of Passing</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="3">5.  Identification Details</th>
+                </tr>
+                <tr>
+                    <td>5.1</td>
+                    <td>Citizenship Number</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>5.2</td>
+                    <td>Upload photo of Citizenship card</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="3">
+                        <center>
+                            <input class="botton" type="submit" placeholder="submit">
+                            <input class="botton" type="reset" placeholder="Back">
+                        </center>
+                    </th>
+                </tr>
+            </table>
+        </body>
+        </html>
